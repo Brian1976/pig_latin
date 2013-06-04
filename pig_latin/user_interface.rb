@@ -16,6 +16,8 @@ module PigLatin
       end
     end
 
+    private
+
     def self.convert_words(words)
       converted_words = []
       words.each do |word|
@@ -23,8 +25,6 @@ module PigLatin
       end
       converted_words
     end
-
-  private
 
     def self.convert(word)
       Converter.convert(word)

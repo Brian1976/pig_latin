@@ -21,7 +21,6 @@ module PigLatin
       until VOWELS.include? word[i]
         i += 1
       end
-
       return i
     end
   end
